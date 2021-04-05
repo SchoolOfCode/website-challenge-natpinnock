@@ -17,8 +17,9 @@ Hi Ines, here is some info about me based on what we discusses yesterday:
 **Hobbies and Interests**
 -   Exercise – I do yoga most days, and when the gyms are open, I enjoy weightlifting at Black Country Barbell. 
 -   Gaming – currently punishing myself by playing a lot of Warzone. 
--   Crafts – knitting and crochet
 -   Music – collecting vinyls and playing piano, when I have the time!
+-   Sport - I'm an Aston Villa fan, and also follow F1 and NFL.
+-   Making - I like to learn crafts such as sewing and knitting, but also digital making using my Raspberry Pi
 
 **What are you looking forward to most about the end of the pandemic?**
 -   Being able to have my friends and family in my new house!
