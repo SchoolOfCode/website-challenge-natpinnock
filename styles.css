@@ -1,3 +1,41 @@
-html{
-    background: #eff7f6;
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 { 
+    border: 1px solid black;
+    width:20%;
+    height:10%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow:auto;
+    text-align: center;
+    display: block;  
+}
+
+.navlist {
+    border: 1px solid black;
+    width: 20%;
+    margin: 5% 0 0 0;
+    padding: 0;
+    height: 85%;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    display: block;    
+}
+
+.navlist ul {
+    list-style-type: none;
+}
+
+div, footer {
+    border: 1px solid black;
+    margin: 0 5% 5% 25%;
+}
+
+img {
+    height: 300px;
+    width: 300px;  
 }
