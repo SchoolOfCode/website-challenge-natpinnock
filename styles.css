@@ -5,6 +5,8 @@ html {
 
 .nav {
     display: flex;
+    width:100%;
+    text-align: center;
     flex-flow: column nowrap;
     position: fixed;
     height: 100vh;
@@ -15,23 +17,28 @@ html {
 }
 
 .box {
+    font-size: 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     height: 100vh;
-    border-bottom: 3px solid #f5f5f5;
+    width:100%;
+    text-align: center;
+    border-top: 3px solid #f5f5f5;
 }
 
 .content1, .content3, .content5, .content7, .content9 {
     display: flex;
     flex-flow: row nowrap;
     margin-left: 25%;
+    align-items: center;
 }
 
 .content2, .content4, .content6, .content8, .content10 {
     display: flex;
     flex-flow: column nowrap;
     margin: 0 5% 5% 5%;
+    justify-content: center;
 }
 
 
@@ -72,8 +79,9 @@ html {
 
 footer {
     background-color: #e0e0e0;
-    margin: 5% 0 0 21%;
+    margin: 5% 0 -1% 19%;
     width: 79%;
+    padding-right:2%;
     text-align: end;
     
 }
