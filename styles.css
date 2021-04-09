@@ -130,6 +130,7 @@ footer {
     height: 100px;
     background-color:#ffd6d5;
     top: 0;
+     
 }
 
 .navbar__content {
@@ -141,6 +142,7 @@ footer {
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
+    border-right: 3px solid #ef9a9a;
 }
 
 body, .navbar__content:last-child {
@@ -154,7 +156,7 @@ body, .navbar__content:last-child {
 }
 
 .navbar a {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .container {
     margin-top: 120px;
