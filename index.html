@@ -1,120 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-
+<html lang="en">  
+    
 <head>
-    <title>Ines Perez</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ines Perez</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
 </head>
 
 <body>
-    <h1>INES PEREZ</h1>
-    <ul class="navlist">    
-        <li><a href="#about">About Ines</a></li>
-        <li><a href="#favourites">Favourites</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#fun">Just for fun</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-    </ul>
-
-    <div>
-        <table>
-            <tr id="about">
-                <td>
-                    <img src="https://i.imgur.com/ZarIRJh.jpg">
-                </td>
-                <td><h2>About Ines</h2>
-                    <ul>
-                        <li>I’m Ines, I'm 25 and I'm from Spain.</li> 
-                        <li>I live close to Birmingham city centre.</li>
-                        <li>I have a BA in Hospitality & Tourism Management and currently undertaking a Msc Big Data & Business Analytics.</li>
-                        <li>I work in a hotel in Jewellery Quarter and have a side job as Customer Support for an online start-up.</li>
-                    </ul>
-                </td>
-                
-            <tr>
-                
-            </tr>
-        </table>
+    <div class="navbar">
+        <h1 class="navbar__content">INES PEREZ</h1>
+        <a class="navbar__content" href="#about">About Ines</a>
+        <a class="navbar__content" href="#favourites">Favourites</a>
+        <a class="navbar__content" href="#interests">Interests</a>
+        <a class="navbar__content" href="#fun">Just for Fun</a>
+        <a class="navbar__content" href="#portfolio">More Info</a>
     </div>
 
-    <div>
-        <table>
-            <tr id="favourites">
-                <td>
-                    <img src="https://i.imgur.com/6tis7cR.jpg">
-                </td>
-                <td><h2>Favourites</h2>
-                    <ul>
-                        <li>Food: Tapas</li>
-                        <li>Series: currently Grace & Frankie</li>
-                        <li>Animal: Dogs</li>
-                        <li>Book: The Truth About the Harry Quebert Affair by Joël Dicker</li>
-                        <li>Travel location: New York, USA</li>
-                        <li><a href="https://open.spotify.com/playlist/37i9dQZF1DX2TRYkJECvfC">Playlist</a> to listen to whilst coding</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+    <div class="container">
+        <img id=about class="container__image" src="https://i.imgur.com/ZarIRJh.jpg">
+        <div class="textbox">
+            <p class="textbox__content"></p>
+                <h2>About Ines</h2>
+                <ul>
+                    <li>I’m Ines, I'm 25 and I'm from Spain.</li> 
+                    <li>I live close to Birmingham city centre.</li>
+                    <li>I have a BA in Hospitality & Tourism Management and currently undertaking a Msc Big Data & Business Analytics.</li>
+                    <li>I work in a hotel in Jewellery Quarter and have a side job as Customer Support for an online start-up.</li>
+                </ul>
+            </p>
+        </div>
     </div>
 
-    <div>
-        <table>
-            <tr id="interests">
-                <td>
-                    <img src="https://i.imgur.com/qGjjQxi.jpg?1">
-                </td>
-                <td><h2>Interests</h2>
-                    <ul>
-                        <li>Exercise – I love running and hopefully I can start kick-boxing.</li>
-                        <li>Gaming – Love playing video games, I've recently boughta Nintendo Switch so I alternate it with my PS4!</li>
-                        <li>Music – Very into Rock Music, however I do enjoy good Techno & Reggae!</li>
-                        <li>Sport - I'm a crazy and loyal supporter of Levante (my team since I'm able to make important decisions lol).</li>
-                        <li>Making - I enjoy cooking spanish food to others</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+    <div class="container">
+        <img id=favourites class="container__image" src="https://i.imgur.com/6tis7cR.jpg">
+        <div class="textbox">
+            <p class="textbox__content">
+                <h2>Favourites</h2>
+                <ul>
+                    <li>Food: Tapas</li>
+                    <li>Series: currently Grace & Frankie</li>
+                    <li>Animal: Dogs</li>
+                    <li>Book: The Truth About the Harry Quebert Affair by Joël Dicker</li>
+                    <li>Travel location: New York, USA</li>
+                    <li><a href="https://open.spotify.com/playlist/37i9dQZF1DX2TRYkJECvfC">This is a playlist</a> that I like to listen to whilst coding</li>
+                </ul>
+            </p>
+        </div>
     </div>
 
-    <div>
-        <table>
-            <tr id="fun">
-                <td>
-                    <img src="https://i.imgur.com/fIv0INos.jpg">
-                </td>
-                <td><h2>2 Truths and a Lie!</h2>
-                    <ul>
-                        <li>I was born in China</li>
-                        <li>I have two bikes</li> 
-                        <li>I'm allergic to pollen.</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+    <div class="container">
+        <img id=interests class="container__image" src="https://i.imgur.com/qGjjQxi.jpg?1">
+        <div class="textbox">
+            <p class="textbox__content">
+                <h2>Interests</h2>
+                <ul>
+                    <li>Exercise: I love running and hopefully I can start kick-boxing.</li>
+                    <li>Gaming: Love playing video games, I've recently boughta Nintendo Switch so I alternate it with my PS4!</li>
+                    <li>Music: Very into Rock Music, however I do enjoy good Techno & Reggae!</li>
+                    <li>Sport: I'm a crazy and loyal supporter of Levante (my team since I'm able to make important decisions lol).</li>
+                    <li>Making: I enjoy cooking spanish food to others</li>
+                </ul>
+            </p>
+        </div>
     </div>
 
-    <div>
-        <table>
-            <tr id="portfolio">
-                <td>
-                    <img src="https://i.imgur.com/QbOcEe1.png?1">
-                </td>
-                <td><h2>Portfolio</h2>
-                    <ul>
-                        <li><a href="https://github.com/inesperez">GitHub</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+    <div class="container">
+        <img id=fun class="container__image" src="https://i.imgur.com/fIv0INos.jpg">
+        <div class="textbox">
+            <p class="textbox__content">
+                <h2>2 Truths and a Lie!</h2>
+                <ul>
+                    <li>I was born in China</li>
+                    <li>I have two bikes</li> 
+                    <li>I'm allergic to pollen.</li>
+                </ul>
+            </p>
+        </div>
     </div>
-        
+
+    <div class="container">
+        <img id=portfolio class="container__image" src="https://i.imgur.com/NLqqPTz.png">
+        <div class="textbox">
+            <p class="textbox__content">
+                <h2>Find out more about me here</h2>
+                <ul>
+                    <li><a href="https://github.com/inesperez">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/inesperezgomez/">LinkedIn</a></li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
 
 <footer>
-    Back to <a href="head">Top</a>
+    Back to <a href=#about>Top</a>
 <br>
-    Made by Natalie. Find out about Natalie <a href="**">here!</a>
+    Made by Natalie. Find out about Natalie <a href="https://github.com/natpinnock">here!</a>
 </footer>
 
 </html>
-
