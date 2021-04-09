@@ -9,7 +9,6 @@ html,body {
 .nav {
     display: flex;
     width:100%;
-    color: #ffffff;
     text-align: center;
     flex-flow: column nowrap;
     position: fixed;
@@ -30,7 +29,7 @@ html,body {
     width:100%;
     text-align: center;
     border-top: 10px solid #f15bb5;
-}   
+}
 
 .content1, .content3, .content5, .content7, .content9 {
     display: flex;
@@ -62,8 +61,57 @@ img {
 }
 
 body, .nav5 {
-    border-bottom: 10px solid #
-    ;
+    border-bottom: 10px solid #f15bb5;
     border-left: 10px solid #f15bb5;
     border-right: 10px solid #f15bb5;
+}
+
+@media (max-width: 815px) {
+    body, .nav {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .nav {
+        display: flex;
+        width:100%;
+        flex-flow: row nowrap;
+        position: fixed;
+        height: 100px;
+        background-color:#000000;
+    }
+
+    .box, h1 {
+        margin: 0;
+        border: 0;
+        height: 100px;
+        color: #ffffff;
+        font-size: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    body, .nav5 {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .content1, .content3, .content5, .content7, .content9, .content2, .content4, .content6, .content8, .content10 {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        width: 100%;
+        margin: 20% 0 0 0;
+    }
+
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        width: 100;    
+        margin-left: 0;
+        text-align: end;
+        padding-right: 2px;
+    }
 }
