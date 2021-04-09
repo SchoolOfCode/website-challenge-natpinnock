@@ -1,15 +1,15 @@
 html, body {
     font-family: "Poppins",Helvetica, sans-serif;
     color: #000000;
-    background-color: #f15bb5;
+    background-color: #ef9a9a;
     padding:0;
     margin: 0;
 }
 
 body {
-    border-bottom: 10px solid #f15bb5;
-    border-left: 10px solid #f15bb5;
-    border-right: 10px solid #f15bb5;
+    border-bottom: 10px solid #ef9a9a;
+    border-left: 10px solid #ef9a9a;
+    border-right: 10px solid #ef9a9a;
 }
 
 .navbar {
@@ -20,12 +20,12 @@ body {
     position: fixed;
     height: 100%;
     width: 15%;
-    background-color:#000000;
+    background-color:#ffd6d5;
     align-items: center;
 }
 
 .navbar__content {
-    color: #ffffff;
+    color: #000000;
     margin-top: 0;
     font-size: 20px;
     display: flex;
@@ -34,7 +34,7 @@ body {
     height:100%;
     width:100%;
     text-align: center;
-    border-top: 10px solid #f15bb5;
+    border-top: 10px solid #ef9a9a;
 }
 
 .container {
@@ -53,8 +53,8 @@ body {
 }
 
 footer {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffd6d5;
+    color: #000000;
     width: 100;
     margin-left:20%;
     text-align: end;
@@ -67,9 +67,9 @@ footer {
 }
 
 body, .navbar__content:last-child {
-    border-bottom: 10px solid #f15bb5;
-    border-left: 10px solid #f15bb5;
-    border-right: 10px solid #f15bb5;
+    border-bottom: 10px solid #ef9a9a;
+    border-left: 10px solid #ef9a9a;
+    border-right: 10px solid #ef9a9a;
 }
 
 @media (max-width: 815px) {
@@ -85,14 +85,14 @@ body, .navbar__content:last-child {
         flex-flow: row nowrap;
         position: fixed;
         height: 100px;
-        background-color:#000000;
+        background-color:#ffd6d5;
     }
 
     .navbar__content {
         margin: 0;
         border: 0;
         height: 100px;
-        color: #ffffff;
+        color: #000000;
         font-size: 10px;
         display: flex;
         flex-flow: column nowrap;
@@ -114,8 +114,8 @@ body, .navbar__content:last-child {
     }
 
     footer {
-        background-color: #000000;
-        color: #ffffff;
+        background-color: #ffd6d5;
+        color: #000000;
         width: 100;    
         margin-left: 0;
         text-align: end;
