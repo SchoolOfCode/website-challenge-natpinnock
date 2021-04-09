@@ -37,3 +37,22 @@ Things I heave learnt about **CSS**
 6. Animations and transitions  
   
 I've also learnt that my memory will not be able to recall everything that I've read, but I've started keeping a list of websites and places to go when I forget. Focussing on remembering where this info I need is kept rather than learning by rote. **Trying to remember the patterns**
+
+## Flexbox / BEM / User design ##
+
+In the second week I have been able to get much more creative with my coding, and decided to change the nav bar and content tables in my website to use flexboxes instead. I also later changed the footer to a flexbox too, as it was easier to format the text in the way I wanted. The format of my website also meant that I got used to changing the  **_flex direction_**, working with both the horizontal and vertical axis as the main/cross axis. 
+
+After learning about BEM I refactored some of the code in my website. This seemed tricky at first, but once all the blocks and elements were in place it became much easier to write my CSS without looking back to the HTML as the block/element names made much more sense. 
+
+I considered user design particularly in the colour scheme of my website, sending several possible options off to my pair partner based on what she said she liked, giving options worked well. I also considered visual hierarcy and white space after watching the tutorial. 
+
+## Final Thoughts ##
+
+- There is always something that I will want to change or think I can do better, especially on the bootcamp as we are always learning something new. 
+- What I think looks great will not always be what the client wants! 
+- Planning a layout first will help in the long run. 
+- Commenting on my code will help me keep track of my thought process. 
+- I need to work on understanding of how changing margins/padding/borders affects different elements, and also using the different units (px/em/rem/vh/vw). 
+- I am really excited to see what I can produce in the next challenge, especially when we are able to us JS. 
+
+[FINAL WEBSITE: NETLIFY LINK] (https://inesperez.netlify.app/)
