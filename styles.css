@@ -54,11 +54,11 @@ body, .navbar__content:last-child {
     background-color: #eae4e9;
 }
 .navbar h1 {
-    font-size: 2em;
+    font-size: 2.5vw;
 }
 
 .navbar a {
-    font-size: 1.3em;
+    font-size: 1.7vw;
 }
 
 .container {
@@ -85,10 +85,12 @@ body, .navbar__content:last-child {
 }
 
 a:link {
+    color: #212529;
     background-color: #ffd6d5;
 }
 
 a:visited {
+    color: #212529;
     background-color: #ffd6d5;
 }
 
@@ -120,13 +122,14 @@ footer {
     padding: 0;
 }
 
-.navbar {
+.navbar {    
     display: flex;
     width:100%;
     flex-flow: row nowrap;
     position: fixed;
     height: 100px;
     background-color:#ffd6d5;
+    top: 0;
 }
 
 .navbar__content {
@@ -134,12 +137,12 @@ footer {
     border: 0;
     height: 100px;
     color: #212529;
-    font-size: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
 }
+
 body, .navbar__content:last-child {
     border: 0;
     margin: 0;
@@ -147,11 +150,13 @@ body, .navbar__content:last-child {
 }
 
 .container {
+    margin-top: 120px;
+    margin-left: 0;
     display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    width: 100%;
-    margin: 20% 0 0 0;
+    flex-flow: column wrap;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 footer {
@@ -162,5 +167,6 @@ footer {
     text-align: end;
     padding-right: 2px;
 }
+
 }
     
