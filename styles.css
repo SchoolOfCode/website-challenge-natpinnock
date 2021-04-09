@@ -12,9 +12,11 @@ body {
     border-right: 10px solid #ef9a9a;
 }
 
+/* flexboxes to style navigation bar */
+
 .navbar {
     display: flex;
-    width:100%;
+    width: 100%;
     text-align: center;
     flex-flow: column nowrap;
     position: fixed;
@@ -36,7 +38,7 @@ body {
     border-top: 10px solid #ef9a9a;
 }
 
-body, .navbar__content:last-child {
+.navbar__content:last-child {
     border-bottom: 10px solid #ef9a9a;
     border-left: 10px solid #ef9a9a;
     border-right: 10px solid #ef9a9a;
@@ -61,6 +63,7 @@ body, .navbar__content:last-child {
     font-size: 1.7vw;
 }
 
+/* flexboxes to style main content */
 .container {
     display: flex;
     flex-flow: row nowrap;
@@ -98,6 +101,7 @@ a:hover {
     background-color: #c75146;
 }
 
+/* flexboxes for footer */
 footer {
     display:flex;
     flex-flow: row nowrap;
@@ -114,9 +118,12 @@ footer {
     justify-content: flex-end;
     align-items: center;
     text-align: end;
-    }
+}
 
-@media (max-width: 815px) {body, .navbar {
+/* changes for smaller devices - move nav bar to the top and change to columns */
+@media (max-width: 815px) {
+    
+    body, .navbar {
     border: 0;
     margin: 0;
     padding: 0;
@@ -127,16 +134,15 @@ footer {
     width:100%;
     flex-flow: row nowrap;
     position: fixed;
-    height: 100px;
+    height: 70px;
     background-color:#ffd6d5;
     top: 0;
-     
 }
 
 .navbar__content {
     margin: 0;
     border: 0;
-    height: 100px;
+    height: 70px;
     color: #212529;
     display: flex;
     flex-flow: column wrap;
@@ -159,7 +165,7 @@ body, .navbar__content:last-child {
     font-size: 0.8em;
 }
 .container {
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 0;
     display: flex;
     flex-flow: column wrap;
@@ -182,5 +188,4 @@ footer {
     text-align: end;
     padding-right: 2px;
 }
-
 }
