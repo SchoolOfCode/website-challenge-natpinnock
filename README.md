@@ -55,4 +55,4 @@ I considered user design particularly in the colour scheme of my website, sendin
 - I need to work on understanding of how changing margins/padding/borders affects different elements, and also using the different units (px/em/rem/vh/vw). 
 - I am really excited to see what I can produce in the next challenge, especially when we are able to us JS. 
 
-[FINAL WEBSITE: NETLIFY LINK] (https://inesperez.netlify.app/)
+FINAL WEBSITE:(https://inesperez.netlify.app/)
