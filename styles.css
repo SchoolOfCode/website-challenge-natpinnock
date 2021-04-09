@@ -81,7 +81,7 @@ body, .navbar__content:last-child {
     justify-content: center;
     height: 300px;
     line-height: 1.5em;
-    font-size: 1.2vw;
+    font-size: 1em;
 }
 
 a:link {
@@ -122,7 +122,7 @@ footer {
     padding: 0;
 }
 
-.navbar {    
+.navbar {
     display: flex;
     width:100%;
     flex-flow: row nowrap;
@@ -138,7 +138,7 @@ footer {
     height: 100px;
     color: #212529;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     text-align: center;
 }
@@ -149,14 +149,27 @@ body, .navbar__content:last-child {
     padding: 0;
 }
 
+.navbar h1 {
+    font-size: 1.5em;
+}
+
+.navbar a {
+    font-size: 1em;
+}
 .container {
     margin-top: 120px;
     margin-left: 0;
     display: flex;
     flex-flow: column wrap;
     width: auto;
+    height: auto;
     align-items: center;
     justify-content: space-around;
+}
+
+.textbox {
+    font-size: 1.2em;
+    height: auto;
 }
 
 footer {
@@ -169,4 +182,3 @@ footer {
 }
 
 }
-    
