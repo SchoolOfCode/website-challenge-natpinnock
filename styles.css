@@ -81,7 +81,7 @@ body, .navbar__content:last-child {
     justify-content: center;
     height: 300px;
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 1.2vw;
 }
 
 a:link {
@@ -156,7 +156,7 @@ body, .navbar__content:last-child {
     flex-flow: column wrap;
     width: auto;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 footer {
